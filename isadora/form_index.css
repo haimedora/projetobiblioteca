@@ -1,0 +1,38 @@
+body {
+		color: white;
+        background-color: lightblue;
+		font: 12px Verdana, sans-serif;
+		}
+#logo{
+    position: absolute;
+    left: 450px;
+}
+        #conteudo {
+            position: absolute;
+            bottom: 360px;
+            left:230px;
+            width: 70%;
+            float: right;
+            text-align: center;
+            }
+            #menu {
+                position:absolute;
+                left: 480px;
+                bottom: 155px;
+                width: 30%;
+                margin: 0; padding: 0;
+                float: left;
+                }
+                #menu ul li {
+                    margin: 0; padding: 0px;
+                    border-bottom: 1px solid #CCC;
+                    text-align: left;
+                    list-style-type: none;
+                    }
+                    #menu a:link {
+                        background: #F5F5F5;
+                        font-weight: bold;
+                        text-decoration: none;
+                        padding: 8px;
+                        display: block;
+                        }
